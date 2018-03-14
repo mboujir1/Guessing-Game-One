@@ -19,7 +19,7 @@ while True:
     elif (user_input == int(rand)):
         print('Amazing! you choosed the exact number.')
     elif diff < ((MAX+MIN)/2):
-        print('your guess is too high!!!')
+        print('your guess is too close!!!')
     else:
-        print('your guess is too low!!!')
+        print('your guess is too far away!!!')
     print('the number is ' + str(rand))
